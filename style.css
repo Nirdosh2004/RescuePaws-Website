@@ -63,7 +63,7 @@ a{
           opacity: .6;
           position: relative;
 }
-.navbar .tags .home{
+.navbar .tags .home h3{
           color: #FF8C00;
           opacity: 1;
 }
@@ -101,6 +101,7 @@ a{
           display: flex;
           gap: .5vw;
           height: 5vh;
+          font-size: 1vw;
           align-items: center;
           justify-content: center;
           width: 10vw;
@@ -161,8 +162,6 @@ a{
   gap: 1vw;
 }
 
-
-
 #hero-section .texts h4{
   font-weight: 600;
   font-size: 1vw;
@@ -185,13 +184,47 @@ a{
   font-weight: 400;
   
 }
+#hero-section .texts .one:hover{
+  cursor: pointer;
+          opacity: 1;
+          transform: scale(1.05);
+          transition: .3s;
+          color: #f8f8f8;
+          background: #007FFF;
+}
+#hero-section .texts .two:hover{
+  cursor: pointer;
+          opacity: 1;
+          transform: scale(1.05);
+          transition: .3s;
+          color: #f8f8f8;
+          background: #007FFF;
+}
 
-#hero-section .texts button{
+#hero-section .texts .one {
   display: flex;
   gap: .5vw;
   height: 5vh;
   align-items: center;
   margin-top: 3vw;
+  font-size: 1vw;
+  justify-content: center;
+  width: 10vw;
+  border-radius: 21% 79% 62% 38% / 38% 24% 76% 62% ;
+  /* border-radius: 12% 88% 16% 84% / 60% 45% 55% 40% ; */
+  border: 1px solid #212121;
+  background: #FF8C00;
+  font-weight: 500;
+  color: #212121;
+  opacity: .9;
+}
+#hero-section .texts .two {
+  display: flex;
+  gap: .5vw;
+  height: 5vh;
+  align-items: center;
+  margin-top: 1vw;
+  font-size: 1vw;
   justify-content: center;
   width: 10vw;
   border-radius: 21% 79% 62% 38% / 38% 24% 76% 62% ;
@@ -552,6 +585,7 @@ background: none;
 #news{
   height: 100vh;
   width: auto;
+  
   background: hsla(176, 61%, 87%, 1);
 
   background: linear-gradient(90deg, hsla(176, 61%, 87%, 1) 0%, hsla(150, 54%, 86%, 1) 50%, hsla(301, 68%, 84%, 1) 100%);
@@ -765,6 +799,167 @@ background: none;
   }}}}}}}}}}}}}}}}}
 }}}}}}}}}}}}}}}}}}}}} */
 
+#report-animal{
+  height: 100vh;
+  width: auto;
+  background: hsla(0, 0%, 100%, 1);
+
+background: linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(318, 51%, 58%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(318, 51%, 58%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(318, 51%, 58%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#ffffff", endColorstr="#CB5DAA", GradientType=1 );
+  padding: 2vw;
+}
+#report-animal h1{
+  color: #f8f8f8;
+  font-size: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#report-animal .form{
+  margin: 6vw 8vw;
+  border: #FF8C00 1px solid;
+  padding: 2vw 10vw;
+  display: flex;
+  flex-direction: column;
+  background: #FF8C00;
+  border-radius: 21% 79% 62% 38% / 38% 24% 76% 62%;
+}
+#report-animal .form input{
+  height: 5vh;
+  width: 30vw;
+  border: none;
+  /* outline: none; */
+  margin: .5vw;
+  border-radius:99% 1% 100% 0% / 29% 22% 78% 71%  ;
+  opacity: .9;
+}
+#report-animal .form input::placeholder{
+  text-align: start;
+  padding-left: 1vw;
+}
+#report-animal .form input:hover{
+  opacity: 1;
+  transform: scale(1.05);
+  transition: 0.3s;
+  outline: 0;
+  border: 1px solid #007FFF;
+}
+
+#report-animal .form button{
+  height: 5vh;
+  width: 8vw;
+  position: relative;
+  text-align: center;
+  border-radius: 30% 70% 100% 0% / 100% 60% 40% 0% ;
+  margin-top: 2vw;
+  border: none;
+  background: #AFEEEE;
+  cursor: pointer;
+  font-weight: 500;
+  margin-left: .5vw;
+}
+#report-animal .form button:hover{
+  background: #007FFF;
+  color: #f8f8f8;
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+/* {{{{{{{{{{{{{{{{{{{{{
+  {{{{{{{{{{{{{{{{{
+    [[[[[[[[
+      [[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]
+    ]]]]]]]]
+  }}}}}}}}}}}}}}}}}
+}}}}}}}}}}}}}}}}}}}}} */
+
+#lost-found{
+  height: 100vh;
+  width: auto;
+  background: hsla(0, 0%, 100%, 1);
+
+  background: linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(172, 53%, 37%, 1) 100%);
+  
+  background: -moz-linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(172, 53%, 37%, 1) 100%);
+  
+  background: -webkit-linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(172, 53%, 37%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#ffffff", endColorstr="#2c9184", GradientType=1 );
+  padding: 2vw;
+}
+#lost-found h1{
+  color: #f8f8f8;
+  font-size: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#lost-found .form{
+  margin: 6vw 8vw;
+  border: #FF8C00 1px solid;
+  padding: 2vw 10vw;
+  display: flex;
+  flex-direction: column;
+  background: #FF8C00;
+  border-radius: 21% 79% 62% 38% / 38% 24% 76% 62%;
+}
+#lost-found .form input{
+  height: 5vh;
+  width: 30vw;
+  border: none;
+  /* outline: none; */
+  margin: .5vw;
+  border-radius:99% 1% 100% 0% / 29% 22% 78% 71%  ;
+  opacity: .9;
+}
+#lost-found .form input::placeholder{
+  text-align: start;
+  padding-left: 1vw;
+}
+#lost-found .form input:hover{
+  opacity: 1;
+  transform: scale(1.05);
+  transition: 0.3s;
+  outline: 0;
+  border: 1px solid #007FFF;
+}
+
+#lost-found .form button{
+  height: 5vh;
+  width: 8vw;
+  position: relative;
+  text-align: center;
+  border-radius: 30% 70% 100% 0% / 100% 60% 40% 0% ;
+  margin-top: 2vw;
+  border: none;
+  background: #AFEEEE;
+  cursor: pointer;
+  font-weight: 500;
+  margin-left: .5vw;
+}
+#lost-found .form button:hover{
+  background: #007FFF;
+  color: #f8f8f8;
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+
+
+
+
+/* {{{{{{{{{{{{{{{{{{{{{
+  {{{{{{{{{{{{{{{{{
+    [[[[[[[[
+      [[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]
+    ]]]]]]]]
+  }}}}}}}}}}}}}}}}}
+}}}}}}}}}}}}}}}}}}}}} */
+
 #footer{
   height: 60vh;
   width: auto;
@@ -792,6 +987,8 @@ width: 280px;
 }
 #footer .top .text h1{
 color: #FF8C00;
+/* position: relative;
+text-align: start; */
 }
 #footer .top .text p{
   margin-top: .2vw;
@@ -833,4 +1030,23 @@ color: #FFBD00;
   font-size: 1vw;
   opacity: .8;
   color: #f8f8f8;
+}
+
+/* {{{{{{{{{{{{{{{{
+   [[[[[[[[[[[[[[
+    0)))))))))))))))]
+    [[[[
+
+    ]]]]
+  ]]]]]]]]]]]]]]
+}}}}}}}}}}}}}}}} */
+/* 
+.navbar .menu-icon{
+  display: none;
+} */
+.navbar .menu-icon img{
+  height: 3.5vh;
+  cursor: pointer;
+  width: auto;
+  
 }

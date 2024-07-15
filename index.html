@@ -5,6 +5,7 @@
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
           <title>RescuePaws</title>
           <link rel="stylesheet" href="style.css">
+          <link rel="stylesheet" href="mediaQuaries.css">
           <!-- <link rel="stylesheet" href="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.css">
           <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
                     rel="stylesheet" />
@@ -14,7 +15,7 @@
    <!-- <div class="main"> -->
     <div class="navbar">
        <h2 class="logo">RescuePaws</h2>
-       <div class="tags">
+       <div id="menuList" class="tags">
           <a href="#hero-section" class="home" > <h3>Home</h3>
           </a>
          <a href="#breeder-section"> <h3>Breed</h3></a>
@@ -23,19 +24,24 @@
           <a href="#contact"><h3>Volunteer</h3></a>
           <a href="#footer"><h3>Contact</h3></a>
        </div>
-          <button class="adopt-here">Adopt here <img src="icons/heart.png" alt=""> </button>
+       <div class="menu-icon">
+         <img src="icons/menu.png" onclick="toggleMenu()" alt="">
+       </div>
+          <!-- <a href="https://extraordinary-torrone-73746c.netlify.app/" class="adopt-here">Ask AI for Help </a> -->
     </div>
     <div id="hero-section">
           <div class="texts">
             <div class="head">
                <h1>RescuePaws  </h1>
-               <img class="icon-paw" src="icons/wired-outline-448-paws-animal (3).png" alt=""></div>
-            <h4> Where Tails Wag and Hope Blooms.</h4>
+               <img class="icon-paw" src="icons/wired-outline-448-paws-animal (3).png" alt="">
+            </div>
+            <h4 id="h4" > Where Tails Wag and Hope Blooms.</h4>
             <p> Looking for love with four paws?  Rescue a dog, change a life. <br><span> Imagine wagging tails  , slobbery kisses  , and a furry friend  by your side.</span> At Rescue Paws, that dream becomes reality. We're a passionate group dedicated to rescuing abandoned and neglected dogs, giving them a safe haven and a brighter future.</p>
-            <button>View more  </button>
+            <a href="#report-animal" class="one" >Report an Animal  </a>
+            <a href="#lost-found" class="two" >Lost & Found  </a>
+            <a href="https://www.google.com/maps/search/animal+shelters+near+me/@28.5922181,77.1838633,10z/data=!3m1!4b1?entry=ttu" class="two">Find Help Nearby</a>
           </div>
           <img class="main-img" src="images/hero-dog1.png" alt="">
-       
     </div>
     <!-- <hr> -->
     <div id="breeder-section">
@@ -64,17 +70,17 @@
             <hr>
             <h4>DOGS ARE FIRST BRED</h4>
          </div>
-         <div class="card1">
+         <div  class="card1">
             <h1>253%</h1>
             <hr>
             <h4>MOST DOGS ARE FIRST </h4>
          </div>
-         <div class="card1">
+         <div id="box1" class="card1">
             <h1>38%</h1>
             <hr>
             <h4>DOGS ARE BEST </h4>
          </div>
-         <div class="card1">
+         <div id="box1" class="card1">
             <h1>53%</h1>
             <hr>
             <h4>YEARS OF HISTORY</h4>
@@ -96,7 +102,7 @@
             <p>These fluffy little dogs come in <br> a variety of colors and are known for <br> their playful personalities.</p>
             <button>Read more</button>
          </div>
-         <div class="card-1">
+         <div id="bruce" class="card-1">
             <img src="images/flouffy-CPvhE5xQ7zE-unsplash.jpg" alt="">
             <h5>Birth: 2021</h5>
             <h3>Bruce</h3>
@@ -110,7 +116,7 @@
             <p>These fluffy little dogs come in <br> a variety of colors and are known for <br> their playful personalities.</p>
             <button>Read more</button>
          </div>
-         <div class="card-1">
+         <div id="fluffy" class="card-1">
             <img src="images/lydia-tan-f5KQq4Wfxg8-unsplash.jpg" alt="">
             <h5>Birth: 2021</h5>
             <h3>Fluffy</h3>
@@ -119,6 +125,26 @@
          </div>
       </div>
     </div>
+    <div id="report-animal">
+      <h1>Report an Animal</h1>
+      <div class="form">
+         <input type="text" name="name"  placeholder="Nirdosh Kushwaha">
+         <input type="tel" name="number" required  placeholder="1234567890">
+         <input type="text" name="address" required  placeholder="Enter your current location">
+         <input class="message" type="text" name="message" required  placeholder="Enter Problem">
+         <button>Submit</button>
+      </div>
+   </div>
+   <div id="lost-found">
+      <h1>Lost & Found</h1>
+      <div class="form">
+         <input type="text" name="name"  placeholder="Your name">
+         <input type="text" placeholder="Pet name">
+         <input type="tel" name="number" required  placeholder="Phone number">
+         <input type="text" name="address" required  placeholder="Enter your current location">
+         <!-- <input class="message" type="url" name="message" required  placeholder="Enter Problem"> -->
+         <button>Submit</button>
+      </div>
     <div id="news">
       <div class="top">
          <img src="icons/heart.png" alt="">
@@ -127,7 +153,7 @@
          <p>This is just a snapshot of today's trending news. Keep an eye on reliable news sources <br> for the latest updates and developments on these and other stories.</p>
       </div>
       <div class="bottom">
-         <div class="card-1">
+         <div id="two-dogs" class="card-1">
             <img src="images/alvan-nee-T-0EW-SEbsE-unsplash.jpg" alt="">
             <h5>Smith / May 29, 2022</h5>
             <h3>Online Pet Everything</h3>
@@ -137,7 +163,7 @@
          <div class="card-1">
             <img src="images/erda-estremera-D1wiHCovGJ0-unsplash.jpg" alt="">
             <h5>John / November 3, 2019</h5>
-            <h3>Pet needs special foods like</h3>
+            <h3>Pet needs special foods </h3>
             <p>This is just a snapshot of today's trending news. <br>  Keep an eye on reliable news sources.</p>
             <button>Read more</button>
          </div>
@@ -191,6 +217,60 @@
       <hr>
       <footer>Copyright &#169; 2024. All Rights Reserved by RescuePaws | Nirdosh Kushwaha</footer>
    </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- </div> -->
 <!-- <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
