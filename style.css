@@ -5,6 +5,7 @@
           padding: 0;
           box-sizing: border-box;
           font-family: Outfit;
+          
 }
 main,body{
   height: 100%;
@@ -43,6 +44,7 @@ a{
           display: flex;
           justify-content: space-between;
           /* position: fixed; */
+          scroll-behavior: smooth;
 
 }
 
@@ -55,6 +57,7 @@ a{
           display: flex;
           gap: 2.5vw;
           font-size: 1vw;
+          scroll-behavior: smooth;
 }
 
 .navbar .tags h3{
@@ -1049,4 +1052,35 @@ color: #FFBD00;
   cursor: pointer;
   width: auto;
   
+}
+
+
+h1,
+h2,h3,h4,h5,h6{
+ animation: CSSscrollReveal ease-in-out both;
+ animation-timeline: view();
+ animation-range: entry 20% cover 40%;
+}
+a,
+p,
+span{
+ animation: CSSscrollReveal ease-in-out both;
+ animation-timeline: view();
+ animation-range: entry 30% cover 50%;
+}
+
+.adopt-here{
+ animation: CSSscrollReveal ease-in-out both;
+ animation-timeline: view();
+ animation-range: entry 0% cover 20%;
+}
+@keyframes CSSscrollReveal {
+ from{
+   opacity: 0;
+   transform: translateY(100px);
+ }
+ to{
+   opacity: 1;
+   transform: translateY(0);
+ }
 }
