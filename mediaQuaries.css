@@ -33,736 +33,365 @@
 }
 
 @media (max-width:1000px){
-          #hero-section .texts .head .icon-paw{
-                 height: 100px;
-          }
-          #breeder-section .top .right .text{
-                    height: 220px;
-                    width: 200px;
-          }
-          #breeder-section .top .right .card{
-                  height: 150px;
-                  width: 100px;
-                  border-radius: 17% 83% 17% 83% / 69% 19% 81% 31% ;
-          }
-          #breeder-section .top .right .card img{
-                     border-radius:  17% 83% 17% 83% / 69% 19% 81% 31%;
-          }
-          #breeder-section .bottom .card1{
-                    height: 15vh;
-                    margin-top: 8vh;
-                    width: 10vw;
-          }
-          
+  .navbar .tags{
+    font-size: 1.3vw;
+  }
+  #hero-section .texts .head img{
+    height: 70px;
+    width: auto;
+    margin-top: -50px;
+  }
+  #hero-section .texts .head h1{
+    font-size: 5vw;
+  }
+  #hero-section .texts h4{
+    font-size: 1.2vw;
+  }
+  #hero-section .texts p{
+    font-size: 1.2vw ;
+    margin-top: 7vw;
+  }
+  #breeder-section .right .text h4{
+    font-size: 1.4vw;
+  }
+  #breeder-section .right .text h1{
+    font-size: 2.3vw;
+  }
+  #breeder-section .right .text p{
+    font-size: 1.2vw;
+  }
+  #breeder-section .right .text button{
+    height: 6vw;
+    width: 12vw;
+  }
+  #news{
+    height: auto;
+    width: 100vw;
+  }  
+  #contact{
+    transition: .3s;
+    display: flex;
+    flex-direction: column;
+  }
 }
-@media (max-width:900px){
-          #hero-section .texts .head .icon-paw{
-                 height: 60px;
-                 margin-top: -50px;
-                 transform: rotate(360deg);
-          }
-          #hero-section .texts .head h1{
-                    font-size: 3vw;
-                  }
-          #hero-section .texts h4{
-                    font-size: .8vw;
-                  }
-                  #breeder-section .top .left h1{
-                    font-size: 3vw;
-                  }
-                  #breeder-section .top .left p{
-                    font-size: 1.1vw;
-                    color: #212121;
-                  
-                  }
-          #breeder-section .top .right .card{
-                  height: 150px;
-                  width: 100px;
-                  border-radius: 17% 83% 17% 83% / 69% 19% 81% 31% ;
-          }
-          #breeder-section .top .right .card img{
-                     border-radius:  17% 83% 17% 83% / 69% 19% 81% 31%;
-          }
-          #breeder-section .bottom .card1{
-                    height: 15vh;
-                    margin-top: 8vh;
-                    width: 10vw;
-          }
-          #news .bottom .card-1{
-                    height: 300px;
-                    width: 250px;
-          }
-          #news .bottom .card-1 img{
-                    height: 60%;
-                    width: 100%;
-          }
-}
-@media (max-width:800px){
-          #hero-section{
-                    height: 60vh;
-                    width: auto;
-          }
-          #hero-section .main-img{
-                    height: 60vh;
-          }
-          #hero-section .texts .head .icon-paw{
-                 height: 45px;
-                 margin-top: -40px;
-                 transform: rotate(15deg);
-          }
-          #hero-section .texts .head h1{
-                    font-size: 3vw;
-                  }
-          #hero-section .texts h4{
-                    font-size: 1vw;
-                  }
-                  #breeder-section{
-                    height: 70vh;
-                  }
-                  #breeder-section .top {
-                    height: 40%;
-                  }
-                  #breeder-section .top .left h1{
-                    font-size: 3vw;
-                  }
-                  #breeder-section .top .left p{
-                    font-size: 1.1vw;
-                    color: #212121;
-                  
-                  }
-          #breeder-section .top .right .card{
-                  height: 150px;
-                  width: 100px;
-                  border-radius: 17% 83% 17% 83% / 69% 19% 81% 31% ;
-          }
-          #breeder-section .top .right .card img{
-                     border-radius:  17% 83% 17% 83% / 69% 19% 81% 31%;
-          }
-          #breeder-section .right .text{
-                    height: 200px;
-                    width: 150px;
-                     padding: 5px;
-          }
-          #breeder-section .right .text h4{
-                  
-                    font-size: 1.5vw;
-                   
-                   }
-                   #breeder-section .right .text h1{
-                    font-size: 2.6vw;
-                   }
-                   #breeder-section .right .text p{
-                    font-size: 1vw;
-                    font-weight: 400;
-                    
-                   }
-          #breeder-section .bottom .card1{
-                    height: 12vh;
-                    margin-top: 23vh;
-                    width: 10vw;
-          }
-          #adoption{
-                   /* height: 95vh; */
-          }
-          #adoption .bottom #fluffy{
-                    display: none;
-          }
-          #report-animal{
-                    height: 60vh;
-          }
-          #news{
-                    height: 80vh;
-          }
 
-          #news .bottom .card-1{
-                    height: 300px;
-                    width: 250px;
-          }
-          #news .bottom .card-1 img{
-                    height: 60%;
-                    width: 100%;
-          }
-          #contact{
-                    height: 70vh;
-                    width: auto;
-          }
-          #footer{
-                    height: 50vh;
-          }
+@media (max-width:760px){
+  .navbar .tags{
+    font-size: 1.5vw;
+  }
+  #hero-section{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  #hero-section .texts .tags{
+    display: flex;
+    gap: 5vw;
+    margin-top: 4vw;
+  }
+  #hero-section .texts .head img{
+    height: 50px;
+    width: auto;
+    margin-top: -30px;
+  }
+  #hero-section .texts .head h1{
+    font-size: 6vw;
+  }
+  #hero-section .texts h4{
+    font-size: 1.6vw;
+  }
+  #hero-section .texts p{
+    font-size: 1.8vw ;
+    margin-top: 7vw;
+  }
+  #hero-section .main-img{
+    height: 80vh;
+    width: auto;
+    display: none;
+  }
+  #hero-section .texts .one {
+    font-size: 1.3vw;
+    height: 10vh;
+    padding: 2vw;
+  }
+  #hero-section .texts .two {
+    font-size: 1.3vw;
+    height: 10vh;
+    padding: 2vw;
+  }
+  #breeder-section .bottom{
+    display: none;
+  }
+  #breeder-section .top{
+    height: auto;
+    width: 100vw;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 3vw;
+    /* padding: 2vw 3vw; */
+  }
+  #breeder-section .top .left{
+    height: auto;
+  }
+  #breeder-section .top .left h1{
+    font-size: 4vw;
+  }
+  #breeder-section .top .left p{
+    margin-top: 1vw;
+    font-size: 1.8vw;
+  }
+  #breeder-section .top .left button{
+    height: 10vh;
+    width: 13vw;
+  }
+  #breeder-section .right .text h4{
+    font-size: 1.9vw;
+  }
+  #breeder-section .right .text h1{
+    font-size: 3vw;
+  }
+  #breeder-section .right .text p{
+    font-size: 1.5vw;
+  }
+  #breeder-section .right .text button{
+    height: 6vw;
+    width: 12vw;
+  }
+  #adoption .top p{
+    display: none;
+  }
+  #adoption .bottom{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+  }
+  #adoption .bottom .card-1{
+    height: 400px;
+    width: 280px;
+  }
+  #adoption .bottom .card-1 p{
+    display: none;
+  }
+  #adoption .bottom .card-1 h3{
+  font-size: 4vw;
+  }
+  #adoption .bottom .card-1 h5{
+    font-size: 1.5vw;
+  }
+  #adoption .bottom #fluffy{
+    display: none;
+  }
+  #adoption .bottom #bruce{
+    display: none;
+  }
+  #news{
+    height: auto;
+    width: 100vw;
+  }  
+  #news .top p{
+    display: none;
+  }
+  #news .bottom {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    gap: 4vw;
+   }
+   #news .bottom #two-dogs{
+    display: none;
+   }
+   #news .bottom .card-1 p{
+    display: none;
+   }
+   #news .bottom .card-1 h5{
+    font-size: 1.3vw;
+   }
+   #news .bottom .card-1 h3{
+    font-size: 3vw;
+   }
+   #news .bottom .card-1 button{
+    font-size: 1.5vw;
+   }
+  #contact{
+    transition: .3s;
+    display: flex;
+    flex-direction: column;
+  }
 }
-@media (max-width:700px){
-          .navbar .tags a{
-                    font-size: 1.2vw;
-          }
-          #hero-section{
-                    height: 60vh;
-                    width: auto;
-          }
-          #hero-section .main-img{
-                    height: 60vh;
-          }
-          #hero-section .texts .head .icon-paw{
-                 height: 40px;
-                 margin-top: -22px;
-                 margin-left: .01px;
-                 transform: rotate(30deg);
-          }
-          #hero-section .texts .head h1{
-                    font-size: 5vw;
-                  }
-          #hero-section .texts h4{
-                    font-size: 1.2vw;
-                  }
-                  #hero-section .texts p{
-                    margin-top: 20px;
-                    font-size: 1.2vw;
-                  }
-                 
-                  #breeder-section{
-                    height: 60vh;
-                  }
-                  #breeder-section .top {
-                    height: 40%;
-                  }
-                  #breeder-section .top .left h1{
-                    font-size: 4vw;
-                  }
-                  #breeder-section .top .left p{
-                    font-size: 1.3vw;
-                    color: #212121;
-                  
-                  }
-          #breeder-section .top .right .card{
-                  display: none;
-          }
-          
-          #breeder-section .right .text{
-                    height: 150px;
-                    width: 150px;
-                     padding: 5px;
-          }
-          #breeder-section .right .text h4{
-                  
-                    font-size: 1.8vw;
-                   
-                   }
-                   #breeder-section .right .text h1{
-                    font-size: 3.1vw;
-                   }
-                   #breeder-section .right .text p{
-                    font-size: 1.3vw;
-                    font-weight: 400;
-                    
-                   }
-          #breeder-section .bottom .card1{
-                    height: 10vh;
-                    margin-top: 23vh;
-                    width: 10vw;
-          }
-          #adoption{
-                   height: 80vh;
-          }
-          #adoption .top p{
-                    display: none;
-          }
-          #adoption .bottom .card-1{
-                    height: 250px;
-  width: 200px;
-          }
-          #adoption .bottom .card-1 img{
-                    height: 60%;
-                    object-fit: cover;
-                    width: 50%;
-                    padding: none;
-          }
-          #adoption .bottom #fluffy{
-                    display: none;
-          }
-          #report-animal{
-                    height: 60vh;
-          }
-          #news{
-                    height: 80vh;
-          }
-          #news .top p{
-                    display: none;
-          }
 
-          #news .bottom .card-1{
-                    height: 300px;
-                    width: 250px;
-          }
-          #news .bottom .card-1 img{
-                    height: 60%;
-                    width: 100%;
-          }
-          #contact{
-                    height: 70vh;
-                    width: auto;
-          }
-          #footer{
-                    height: 50vh;
-          }
-}
-@media (max-width:600px){
-          .navbar .tags a{
-                    font-size: 2vw;
-          }
-          #hero-section{
-                    height: 50vh;
-                    width: auto;
-          }
-          #hero-section .main-img{
-                    height: 50vh;
-          }
-          #hero-section .texts .head .icon-paw{
-                 height: 38px;
-                 margin-top: -22px;
-                 margin-left: .01px;
-                 transform: rotate(45deg);
-          }
-          #hero-section .texts .head h1{
-                    font-size: 6vw;
-                  }
-          #hero-section .texts h4{
-                    font-size: 1.3vw;
-                  }
-                  #hero-section .texts p{
-                  display: none;
-                  }
-                  
-                 
-                  #breeder-section{
-                    height: 60vh;
-                  }
-                  #breeder-section .top {
-                    height: 40%;
-                  }
-                  #breeder-section .top .left h1{
-                    font-size: 4.3vw;
-                  }
-                  #breeder-section .top .left p{
-                    font-size: 1.5vw;
-                    color: #212121;
-                  
-                  }
-                  #breeder-section .top .left button{
-                    height: 7vh;
-                  }
-          #breeder-section .top .right .card{
-                  display: none;
-          }
-          
-          #breeder-section .right .text{
-                    height: 150px;
-                    width: 150px;
-                     padding: 5px;
-          }
-          #breeder-section .right .text h4{
-                  
-                    font-size: 2vw;
-                   
-                   }
-                   #breeder-section .right .text h1{
-                    font-size: 3.5vw;
-                   }
-                   #breeder-section .right .text p{
-                    font-size: 1.6vw;
-                    font-weight: 400;
-                   }
-                   #breeder-section .right .text button{
-                    height: 7vh;
-                   }
-          #breeder-section .bottom .card1{
-                    height: 10vh;
-                    margin-top: 23vh;
-                    width: 10vw;
-          }
-          #adoption{
-                   height: 70vh;
-          }
-          #adoption .top p{
-                    display: none;
-          }
-          #adoption .bottom .card-1{
-                    height: 250px;
-  width: 200px;
-          }
-          #adoption .bottom .card-1 img{
-                    height: 60%;
-                    object-fit: cover;
-                    width: 50%;
-                    padding: none;
-          }
-          #adoption .bottom #bruce{
-                    display: none;
-          }
-          #adoption .bottom #fluffy{
-                    display: none;
-          }
-          #report-animal{
-                    height: 60vh;
-          }
-          #news{
-                    height: 80vh;
-          }
-          #news .top p{
-                    display: none;
-          }
-          #news .bottom #two-dogs{
-                    display: none;
-          }
-
-          #news .bottom .card-1{
-                    height: 300px;
-                    width: 250px;
-          }
-          #news .bottom .card-1 img{
-                    height: 60%;
-                    width: 100%;
-          }
-          #contact{
-                    height: 70vh;
-                    width: auto;
-          }
-          #footer{
-                    height: 10vh;
-          }
-          #footer .top{
-                   display: none;
-          }
-}
-@media (max-width:500px){
-          .navbar .logo{
-                    font-size: 2vw;
-          }
-          .navbar .tags a{
-                    font-size: 2.4vw;
-          }
-          #hero-section{
-                    height: 40vh;
-                    width: auto;
-          }
-          #hero-section .main-img{
-                    height: 40vh;
-          }
-          #hero-section .texts .head .icon-paw{
-                display: none;
-          }
-          #hero-section .texts .head h1{
-                    margin-top: -39px;
-                    font-size: 7vw;
-                  }
-          #hero-section .texts h4{
-                    font-size: 1.5vw;
-                   
-                  }
-                  #hero-section .texts p{
-                  /* display: none; */
-                  }
-                 
-                 
-                  #breeder-section{
-                    height: 60vh;
-                  }
-                  #breeder-section .top {
-                    height: 40%;
-                  }
-                  #breeder-section .top .left h1{
-                    font-size: 4.3vw;
-                  }
-                  #breeder-section .top .left p{
-                    font-size: 1.8vw;
-                    color: #212121;
-                  }
-                  #breeder-section .top .left button{
-                    width: 16vw;
-                  }
-          #breeder-section .top .right .card{
-                  display: none;
-          }
-          
-          #breeder-section .right .text{
-                    height: 150px;
-                    width: 150px;
-                     padding: 5px;
-          }
-          #breeder-section .right .text h4{
-                  
-                    font-size: 2.5vw;
-                   
-                   }
-                   #breeder-section .right .text h1{
-                    font-size: 4.4vw;
-                   }
-                   #breeder-section .right .text p{
-                    font-size: 1.8vw;
-                    font-weight: 400;
-                   }
-                   #breeder-section .right .text button{
-                    height: 7vh;
-                    width: 17vw;
-                   }
-          #breeder-section .bottom .card1{
-                    height: 10vh;
-                    margin-top: 23vh;
-                    width: 10vw;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center ;
-          }
-          #breeder-section .bottom .card1 h1{
-                    font-size: 3vw;
-          }
-          #breeder-section .bottom .card1 hr,h4{
-                    display: none;
-          }
-          #adoption{
-                   height: 70vh;
-          }
-          #adoption .top p{
-                    display: none;
-          }
-          #adoption .bottom .card-1{
-                    height: 250px;
-  width: 200px;
-          }
-          #adoption .bottom .card-1 img{
-                    height: 60%;
-                    object-fit: cover;
-                    width: 50%;
-                    padding: none;
-          }
-          #adoption .bottom #bruce{
-                    display: none;
-          }
-          #adoption .bottom #fluffy{
-                    display: none;
-          }
-          #report-animal{
-                    height: 60vh;
-          }
-          #news{
-                    height: 80vh;
-          }
-          #news .top p{
-                    display: none;
-          }
-          #news .bottom #two-dogs{
-                    display: none;
-          }
-
-          #news .bottom .card-1{
-                    height: 300px;
-                    width: 250px;
-          }
-          #news .bottom .card-1 img{
-                    height: 60%;
-                    width: 100%;
-          }
-          #contact{
-                    height: 70vh;
-                    width: auto;
-          }
-          #footer{
-                    height: 10vh;
-          }
-          #footer .top{
-                   display: none;
-          }
-}
-@media (max-width:400px){
-          .navbar .logo{
-                    font-size: 4vw;
-          }
-          .navbar .tags a{
-                    font-size: 3vw;
-                    padding: 2vw;
-          }
-          #hero-section{
-                    height :0px;
-                    width: auto;
-                    display: inline;
-                    margin: 0;
-          }
-          
-          #hero-section .main-img{
-                    display: none;
-                    height: 20vh;
-                    width: auto;
-          }
-          #hero-section .texts .head .icon-paw{
-                display: none;
-          }
-          #hero-section .texts .head h1{
-                    margin-top: -39px;
-                    margin-left: 45px;
-                    font-size: 11vw;
-                    
-                  }
-          #hero-section .texts #h4{
-                    font-size: 6vw;
-                   
-                  }
-                  #hero-section .texts p{
-                  display: none;
-                  }
-                  #hero-section .texts .one{
-                    margin-left: 50px;
-                    width: 80px;
-                    height: 30px;
-                    font-size: 2vw;
-                  }
-                  #hero-section .texts .two{
-                    margin-left: 50px;
-                    width: 80px;
-                    height: 30px;
-                    font-size: 2vw;
-                  }
-                 
-                 
-                  #breeder-section{
-                    height: 80vh;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                  }
-                  #breeder-section .top {
-                    height: 40%;
-                    display: flex;
-                    gap: 4vw;
-                    flex-direction: column;
-                    align-items: center;
-                  }
-                  #breeder-section .top .left h1{
-                    font-size: 4.3vw;
-                  }
-                  #breeder-section .top .left p{
-                    display: none;
-                    font-size: 1.8vw;
-                    color: #212121;
-                  }
-                  #breeder-section .top .left button{
-                    width: 16vw;
-                  }
-          #breeder-section .top .right .card{
-                  display: none;
-          }
-          
-          #breeder-section .right .text{
-                    height: 150px;
-                    width: 150px;
-                     padding: 5px;
-          }
-          #breeder-section .right .text h4{
-                  display: none;
-                    font-size: 2.5vw;
-                   
-                   }
-                   #breeder-section .right .text h1{
-                    font-size: 5.4vw;
-                   }
-                   #breeder-section .right .text p{
-                    font-size: 2.3vw;
-                    font-weight: 400;
-                    margin-top: 3vw;
-                   }
-                   #breeder-section .right .text button{
-                    height: 7vh;
-                    margin-top: 7vw;
-                    width: 17vw;
-                   }
-                   #breeder-section .bottom .card-1{
-                    display: none;
-                   }
-          #breeder-section .bottom .card1{
-                    display: none;
-                    height: 10vh;
-                    margin-top: 43vh;
-                    position: relative;
-                    justify-content: start;
-                    width: 10vw;
-                    /* display: flex;
-                    align-items: center;
-                    justify-content: center ; */
-          }
-          #breeder-section .bottom .card1 h1{
-                    font-size: 3vw;
-          }
-          #breeder-section .bottom .card1 hr,h4{
-                    display: none;
-          }
-          #adoption{
-                   height: 120vh;
-                   display: flex;
-                   flex-direction: column;
-                   align-items: center;
-          }
-          #adoption .top h1{
-                    font-size: 1vw;
-          }
-          #adoption .top p{
-                    display: none;
-          }
-          #adoption .bottom{
-                    display: inline;
-          }
-          #adoption .bottom .card-1{
-                    height: 250px;
-  width: 200px;
-  margin: 2vw;
-          }
-          #adoption .bottom .card-1 img{
-                    height: 60%;
-                    object-fit: cover;
-                    width: 50%;
-                    padding: none;
-          }
-          #adoption .bottom #bruce{
-                    display: none;
-          }
-          #adoption .bottom #fluffy{
-                    display: none;
-          }
-          #report-animal{
-                    height: 60vh;
-          }
-          #news{
-                    /* height: 80vh; */
-                    height: 120vh;
-                   display: flex;
-                   flex-direction: column;
-                   align-items: center;
-          }
-          #news .top p{
-                    display: none;
-          }
-          #news .bottom #two-dogs{
-                    display: none;
-          }
-          #news .bottom {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-          }
-
-          #news .bottom .card-1{
-                    height: 250px;
-                    width: 200px;
-                    
-          }
-          #news .bottom .card-1 img{
-                    height: 60%;
-                    width: 100%;
-          }
-          #contact{
-                    height: 70vh;
-                    width: auto;
-          }
-          #footer{
-                    height: 10vh;
-          }
-          #footer .top{
-                   display: none;
-          }
+@media (max-width:460px){
+  .navbar .tags{
+    /* font-size: 1.5vw; */
+  }
+  .navbar .logo{
+    font-size: 3vw;
+  }
+  .navbar .adopt-here{
+    height: 5vh;
+    width: 15vw;
+    font-size: 2vw;
+  }
+  #hero-section{
+    padding: 0;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+  }
+  #hero-section .texts .tags{
+    display: flex;
+    gap: 5vw;
+    margin-top: 4vw;
+    
+  }
+  #hero-section .texts .head img{
+    height: 70px;
+    width: auto;
+    margin-top: -80px;
+  }
+  #hero-section .texts .head h1{
+    font-size: 10vw;
+  }
+  #hero-section .texts h4{
+    font-size: 3vw;
+  }
+  #hero-section .texts p{
+    font-size: 3vw ;
+    margin-top: 7vw;
+  }
+  #hero-section .main-img{
+    display: none;
+  }
+  #hero-section .texts .one {
+    font-size: 2vw;
+    height: 10vh;
+    width: 15vw;
+    padding: 2vw;
+  }
+  #hero-section .texts .two {
+    font-size: 2vw;
+    height: 10vh;
+    padding: 2vw;
+    width: 15vw;
+  }
+  #breeder-section .bottom{
+    display: none;
+  }
+  #breeder-section .top{
+    height: auto;
+    width: 100vw;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 3vw;
+    /* padding: 2vw 3vw; */
+  }
+  #breeder-section .top .left{
+    height: auto;
+  }
+  #breeder-section .top .left h1{
+    font-size: 6vw;
+  }
+  #breeder-section .top .left p{
+    margin-top: 1vw;
+    font-size: 3vw;
+  }
+  #breeder-section .top .left button{
+    height: 10vh;
+    width: 13vw;
+  }
+  #breeder-section .right .text h4{
+    font-size: 2.3vw;
+  }
+  #breeder-section .right .text h1{
+    font-size: 5vw;
+  }
+  #breeder-section .right .text p{
+    font-size: 2.3vw;
+  }
+  #breeder-section .right .text button{
+    height: 10vw;
+    width: 18vw;
+  }
+  #adoption .top p{
+    display: none;
+  }
+  #adoption .bottom{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+  }
+  #adoption .bottom .card-1{
+    height: 400px;
+    width: 280px;
+  }
+  #adoption .bottom .card-1 p{
+    display: none;
+  }
+  #adoption .bottom .card-1 h3{
+  font-size: 4vw;
+  }
+  #adoption .bottom .card-1 h5{
+    font-size: 1.5vw;
+  }
+  #adoption .bottom #fluffy{
+    display: none;
+  }
+  #adoption .bottom #bruce{
+    display: none;
+  }
+  #news{
+    height: auto;
+    width: 100vw;
+  }  
+  #news .top p{
+    display: none;
+  }
+  #news .bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4vw;
+   }
+   #news .bottom #two-dogs{
+    display: none;
+   }
+   #news .bottom .card-1 p{
+    display: none;
+   }
+   #news .bottom .card-1 h5{
+    font-size: 1.3vw;
+   }
+   #news .bottom .card-1 h3{
+    font-size: 3vw;
+   }
+   #news .bottom .card-1 button{
+    font-size: 1.5vw;
+   }
+  #contact{
+    transition: .3s;
+    display: flex;
+    flex-direction: column;
+  }
+  #footer{
+    display: none;
+  }
 }

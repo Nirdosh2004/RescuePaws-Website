@@ -11,6 +11,12 @@
           <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
                     rel="stylesheet" />
           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">  -->
+          <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js'></script>
+         <script type='text/javascript'>
+                (function(){
+                    emailjs.init("0HbJPUy7TLP7RnrtP");
+                   })();
+         </script>
 </head>
 <body>
    <!-- <div class="main"> -->
@@ -21,9 +27,10 @@
           </a>
          <a href="#breeder-section"> <h3>Breed</h3></a>
           <a href="#adoption"><h3>Adoption</h3></a>
-         <a href="#news"> <h3>Blog</h3></a>
           <a href="#contact"><h3>Volunteer</h3></a>
-          <a href="#footer"><h3>Contact</h3></a>
+         <!-- <a href="#news"> <h3>Blog</h3></a> -->
+        
+          <!-- <a href="#footer"><h3>Contact</h3></a> -->
        </div>
        <div class="menu-icon">
          <img src="icons/menu.png" onclick="toggleMenu()" alt="">
@@ -38,9 +45,11 @@
             </div>
             <h4 id="h4" > Where Tails Wag and Hope Blooms.</h4>
             <p> Looking for love with four paws?  Rescue a dog, change a life. <br><span> Imagine wagging tails  , slobbery kisses  , and a furry friend  by your side.</span> At Rescue Paws, that dream becomes reality. We're a passionate group dedicated to rescuing abandoned and neglected dogs, giving them a safe haven and a brighter future.</p>
+           <div class="tags">
             <a href="#report-animal" class="one" >Report an Animal  </a>
             <a href="#lost-found" class="two" >Lost & Found  </a>
             <a href="https://www.google.com/maps/search/animal+shelters+near+me/@28.5922181,77.1838633,10z/data=!3m1!4b1?entry=ttu" class="two">Find Help Nearby</a>
+           </div>
           </div>
           <img class="main-img" src="images/hero-dog1.png" alt="">
     </div>
@@ -129,11 +138,13 @@
     <div id="report-animal">
       <h1>Report an Animal</h1>
       <div class="form">
+         
          <input type="text" name="name"  placeholder="Nirdosh Kushwaha">
-         <input type="tel" name="number" required  placeholder="1234567890">
+         <input type="email" id="email_id" name="email" required  placeholder="abc@gmail.com">
          <input type="text" name="address" required  placeholder="Enter your current location">
-         <input class="message" type="text" name="message" required  placeholder="Enter Problem">
-         <button>Submit</button>
+         <input class="message" type="text" id="message" name="message" required  placeholder="Enter Problem">
+         <input type="file" name="" id="photo" capture="user">
+         <button onclick="sendPhotoMail()" >Submit</button>
       </div>
    </div>
    <div id="lost-found">
@@ -141,10 +152,11 @@
       <div class="form">
          <input type="text" name="name"  placeholder="Your name">
          <input type="text" placeholder="Pet name">
-         <input type="tel" name="number" required  placeholder="Phone number">
-         <input type="text" name="address" required  placeholder="Enter your current location">
+         <input type="email" id="email_id" name="email" required  placeholder="Phone number">
+         <input type="text" id="message" name="address" required  placeholder="Enter your current location">
          <!-- <input class="message" type="url" name="message" required  placeholder="Enter Problem"> -->
-         <button>Submit</button>
+         <input type="file" name="" id="" capture="user">
+         <button onclick="sendMail()">Submit</button>
       </div>
    </div>
     <div id="news">
@@ -181,10 +193,10 @@
     <div id="contact">
       <h1>Get in touch</h1>
       <div class="form">
-         <input type="text" name="name" placeholder="Nirdosh Kushwaha">
-         <input type="email" name="email" placeholder="abc@gmail.com">
-         <input class="message" type="text" name="message" placeholder="Enter your message">
-         <button>Submit</button>
+         <input type="text" id="my_name" name="my_name" placeholder="Nirdosh Kushwaha">
+         <input type="email" id="email_id" name="email" placeholder="abc@gmail.com">
+         <input class="message" id="message" type="text" name="message" placeholder="Enter your message">
+         <button onclick="sendMail()">Submit</button>
       </div>
     </div>
    <div id="footer">

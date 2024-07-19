@@ -7,7 +7,7 @@
           font-family: Outfit;
           
 }
-main,body{
+html,body{
   height: 100%;
   width: 100%;
 }
@@ -132,8 +132,8 @@ a{
 *****hero-section******** */
 
 #hero-section{
-  height: 90vh;
-  width: auto;
+  height: auto;
+  width: 100vw;
   display: flex;
   background: #f8f8f8;
 }
@@ -172,6 +172,10 @@ a{
   margin-left: 10vw;
 
 }
+#hero-section .main-img{
+  height: 100vh;
+  width: auto;
+}
 #hero-section .texts p{
   font-size: 1vw ;
   margin-top: 7vw;
@@ -207,7 +211,7 @@ a{
 #hero-section .texts .one {
   display: flex;
   gap: .5vw;
-  height: 5vh;
+  height: 7vh;
   align-items: center;
   margin-top: 3vw;
   font-size: 1vw;
@@ -224,7 +228,7 @@ a{
 #hero-section .texts .two {
   display: flex;
   gap: .5vw;
-  height: 5vh;
+  height: 7vh;
   align-items: center;
   margin-top: 1vw;
   font-size: 1vw;
@@ -254,8 +258,8 @@ a{
 
 #breeder-section{
   padding: 2vw;
-  height: 100vh;
-  width: auto;
+  height: auto;
+  width: 100vw;
   background: hsla(148, 100%, 80%, 1);
 
   background: linear-gradient(90deg, hsla(148, 100%, 80%, 1) 0%, hsla(211, 94%, 65%, 1) 100%);
@@ -268,7 +272,7 @@ a{
 }
 
 #breeder-section .top{
-  height: 60%;
+  height: 60vh;
   /* width: auto; */
  
   display: flex;
@@ -276,7 +280,7 @@ a{
   padding: 2vw 3vw;
 }
 #breeder-section .top .left{
-  width: 50%;
+  width: 50vw;
   height: auto;
 }
 #breeder-section .top .left h1{
@@ -284,23 +288,24 @@ a{
   color: #f8f8f8;
 
 }
-hr{
+/* hr{
   width: 100%;
   border: .5px solid #212121;
   border-radius: 10px;
-  /* margin: 1vw; */
-}
+  /* margin: 1vw; 
+} */
 
 #breeder-section .top .left p{
   margin-top: 1vw;
-  font-size: 1vw;
+  font-size: 1.3vw;
   font-weight: 500;
+  color: #212121;
 }
 #breeder-section .top .left button{
   display: flex;
   margin-top: 4vw;
   gap: .5vw;
-  height: 5vh;
+  height: 7vh;
   align-items: center;
   justify-content: center;
   width: 10vw;
@@ -362,7 +367,7 @@ background: #FF8C00;
 
  #breeder-section .right .text h4{
   color: #fff;
-  font-size: 1vw;
+  font-size: 1.2vw;
   text-align: start;
   padding-top: 1vh;
   padding-left: 1vw;
@@ -384,7 +389,7 @@ background: #FF8C00;
  }
  #breeder-section .right .text button{
   display: flex;
-  margin-top: 4vw;
+  margin-top: 2vw;
   gap: .5vw;
   height: 5vh;
   align-items: center;
@@ -464,8 +469,8 @@ margin-left: .4vw;
  }}}}}}}}}}}}}}}}}}}}}}}}}} */
 
  #adoption{
-  height: 120vh;
-  width: auto;
+  height: auto;
+  width: 100vw;
   background: hsla(97, 64%, 78%, 1);
 
 background: linear-gradient(90deg, hsla(97, 64%, 78%, 1) 0%, hsla(92, 69%, 70%, 1) 100%);
@@ -586,8 +591,8 @@ background: none;
  ]]]]]]]]]]]]]]]]]]]]]]]]]]]] */
 
 #news{
-  height: 100vh;
-  width: auto;
+  height: auto;
+  width: 100vw;
   
   background: hsla(176, 61%, 87%, 1);
 
@@ -718,8 +723,8 @@ background: none;
 }}}}}}}}}}} */
 
 #contact{
-  height: 100vh;
-  width: auto;
+  height: auto;
+  width: 100vw;
   background: hsla(259, 62%, 74%, 1);
 
   background: linear-gradient(90deg, hsla(259, 62%, 74%, 1) 0%, hsla(206, 67%, 75%, 1) 100%);
@@ -781,7 +786,7 @@ background: none;
   text-align: center;
   border-radius: 30% 70% 100% 0% / 100% 60% 40% 0% ;
   margin-top: 2vw;
-  border: none;
+  border: 1px solid #212121;
   background: #AFEEEE;
   cursor: pointer;
   font-weight: 500;
@@ -803,8 +808,8 @@ background: none;
 }}}}}}}}}}}}}}}}}}}}} */
 
 #report-animal{
-  height: 100vh;
-  width: auto;
+  height: auto;
+  width: 100vw;
   background: hsla(0, 0%, 100%, 1);
 
 background: linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(318, 51%, 58%, 1) 100%);
@@ -881,8 +886,8 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#ffffff", en
 }}}}}}}}}}}}}}}}}}}}} */
 
 #lost-found{
-  height: 100vh;
-  width: auto;
+  height: auto;
+  width: 100vw;
   background: hsla(0, 0%, 100%, 1);
 
   background: linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(172, 53%, 37%, 1) 100%);
